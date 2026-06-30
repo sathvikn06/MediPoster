@@ -1,0 +1,19 @@
+{
+  "name": "medi-poster",
+  "version": "1.0.0",
+  "description": "Hospital and clinic poster generator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo 'Static site, no build needed'",
+    "start": "node server.js"
+  },
+  "keywords": ["hospital", "clinic", "poster", "generator"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
